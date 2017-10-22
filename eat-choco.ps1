@@ -9,9 +9,11 @@
             "poshgit",
             "gitextensions",
             "nuget.commandline",
-            "visualstudiocode",
             "agentransack",
-            "nodejs.install"
+            "nodejs.install",
+            "yarn",
+            "slack",
+            "visualstudiocode"
 
 Function Install-ChocoPackage([string] $package, [string]$args)
 {
